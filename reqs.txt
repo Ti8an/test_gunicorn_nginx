@@ -1,0 +1,6 @@
+openai
+django
+psycopg
+python-dotenv
+requests
+anthropic
