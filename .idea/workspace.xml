@@ -4,8 +4,160 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64e024eb-30c6-4fb6-9033-b7182ed13324" name="Changes" comment="add reqs.txt">
+    <list default="true" id="64e024eb-30c6-4fb6-9033-b7182ed13324" name="Changes" comment="create admin panel">
+      <change afterPath="$PROJECT_DIR$/resp_com/static/admin/js/click_pay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-author.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-inside-post.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-recent-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-recent-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-recent-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-recent-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/blog-recent-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/comments-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/comments-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/comments-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/comments-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/comments-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/blog/comments-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/clients/client-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/clients/client-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/clients/client-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/clients/client-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/clients/client-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/clients/client-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/clients/client-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/clients/client-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/features-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/features-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/footer-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/hero-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/hero-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/hero-img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/portfolio/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/portfolio/portfolio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/portfolio/portfolio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/portfolio/portfolio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/portfolio/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/portfolio/portfolio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/portfolio/portfolio-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/portfolio/portfolio-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/portfolio/portfolio-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/pricing-business.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/pricing-free.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/pricing-starter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/pricing-ultimate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/team-shape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/testimonials/testimonials-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/testimonials/testimonials-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/values-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/values-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/img/values-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/scss/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/aos/aos.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/aos/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/aos/aos.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/aos/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/aos/aos.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap-icons/bootstrap-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap-icons/bootstrap-icons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap-icons/bootstrap-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap-icons/bootstrap-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/glightbox/css/glightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/glightbox/css/glightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/glightbox/css/plyr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/glightbox/css/plyr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/glightbox/js/glightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/glightbox/js/glightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/isotope-layout/isotope.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/isotope-layout/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/php-email-form/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/purecounter/purecounter_vanilla.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/purecounter/purecounter_vanilla.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/remixicon/remixicon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/remixicon/remixicon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/remixicon/remixicon.glyph.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/remixicon/remixicon.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/remixicon/remixicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/remixicon/remixicon.symbol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/remixicon/remixicon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/remixicon/remixicon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/remixicon/remixicon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/swiper/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/swiper/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/static/vendor/swiper/swiper-bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/admin/app_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/admin/app_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/admin/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/admin/base_site.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/admin/change_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/blog-single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/inner-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp_com/templates/portfolio-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resp_com/resp_com/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/resp_com/resp_com/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resp_com/resp_com/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/resp_com/resp_com/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +180,22 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "G:/work/PYTHON/test_gunicorn_nginx/test_gunicorn_nginx",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\work\PYTHON\test_gunicorn_nginx\test_gunicorn_nginx" />
+      <recent name="G:\work\PYTHON\test_gunicorn_nginx\test_gunicorn_nginx\tamplate" />
+      <recent name="G:\work\PYTHON\test_gunicorn_nginx\test_gunicorn_nginx\resp_com\resp_com" />
+      <recent name="G:\work\PYTHON\test_gunicorn_nginx\test_gunicorn_nginx\resp_com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\work\PYTHON\test_gunicorn_nginx\test_gunicorn_nginx\resp_com" />
+      <recent name="G:\work\PYTHON\test_gunicorn_nginx\test_gunicorn_nginx" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721336968828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create admin panel">
+      <option name="closed" value="true" />
+      <created>1721338885558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721338885558</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +253,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="add reqs.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add reqs.txt" />
+    <MESSAGE value="create admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="create admin panel" />
   </component>
 </project>

@@ -17,6 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from resp_com.views import index
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('administration/', admin.site.urls),
+    path('administration/base_site', admin.site.urls),
+    path('', index, name='index')
 ]

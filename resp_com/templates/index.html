@@ -1,0 +1,660 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ответнаотзыв</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="{% static 'css/form_styles.css' %}" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+
+
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="{% static 'index.html' %}" class="logo d-flex align-items-center">
+        <img src="{% static 'img/logo.png' %}" alt="">
+        <span>Ответнаотзыв</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Главная</a></li>
+          <li><a class="nav-link scrollto" href="#price">Цены</a></li>
+          <li><a class="nav-link scrollto" href="#portfilio">Примеры</a></li>
+          <li><a class="nav-link scrollto" href="#blog">Blog</a></li>
+          
+          <li><a class="nav-link scrollto" href="#contact">Контакты</a></li>
+          <li><a class="getstarted scrollto" href="#about">Старт</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Улучшите взаимодействие с клиентами силой ИИ</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Автоматизированные, интеллектуальные ответы на отзывы, позволяющие вам сосредоточиться на стратегическом развитии бизнеса</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Запустить ИИ-ассистента бесплатно</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="{% static 'img/hero-img.png' %}" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Почему мы</h2>
+          <p>6 причин выбрать нас для отзывов</p>
+        </header>
+
+        <!-- Feature Icons -->
+        <div class="row feature-icons" data-aos="fade-up" style="margin-top: 10px;">
+  
+            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <img src="{% static 'img/features-3.png' %}" class="img-fluid p-4" alt="">
+            </div>
+
+            <div class="col-xl-8 d-flex content">
+              <div class="row align-self-center gy-4">
+
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="ri-line-chart-line"></i>
+                  <div>
+                    <h4 data-aos="fade-up">Повышение эффективности обслуживания клиентов</h4>
+                    <p>Сервис позволяет автоматизировать процесс ответа на отзывы и вопросы, значительно сокращая время реакции. Это улучшает пользовательский опыт, повышает удовлетворенность клиентов и способствует укреплению положительного имиджа ваших продуктов на маркетплейсах.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="ri-stack-line"></i>
+                  <div>
+                    <h4>Улучшенная персонализация</h4>
+                    <p>Благодаря изучению информации о клиенте и предоставлению аналитики, наш сервис способен предлагать персонализированные ответы и рекомендации. Это не только делает взаимодействие более личным и эффективным, но и увеличивает шансы на повторные покупки.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="ri-brush-4-line"></i>
+                  <div>
+                    <h4>Снижение нагрузки на службу поддержки</h4>
+                    <p>Автоматизация процессов ответа на отзывы и вопросы значительно снижает нагрузку на службу поддержки. Это позволяет сотрудникам сосредоточиться на более сложных задачах, требующих индивидуального подхода.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="ri-magic-line"></i>
+                  <div>
+                    <h4>Доступ к глубокой аналитике</h4>
+                    <p>Использование продвинутых алгоритмов и инструментов анализа данных позволяет предоставлять клиентам ценную аналитику по их продукции, отзывам и вопросам. Это дает продавцам уникальную возможность лучше понимать свою аудиторию, оптимизировать ассортимент и стратегии продвижения.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="ri-command-line"></i>
+                  <div>
+                    <h4>Непрерывное улучшение через обратную связь</h4>
+                    <p>Использование нашего сервиса обеспечивает возможность непрерывного улучшения продуктов и услуг продавца на основе анализа отзывов и вопросов клиентов. Автоматизированный сбор и анализ обратной связи позволяют оперативно выявлять и устранять проблемы, а также оптимизировать описание товаров и маркетинговые стратегии, повышая тем самым удовлетворенность и лояльность клиентов.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                  <i class="ri-radar-line"></i>
+                  <div>
+                    <h4>Гибкая настройка под бизнес-процессы</h4>
+                    <p>Сервис предлагает продавцам высокий уровень гибкости и настраиваемости, позволяя интегрировать инструменты автоматизации непосредственно в их существующие бизнес-процессы. Это означает, что продавцы могут адаптировать функционал программы под уникальные требования и цели своего бизнеса, обеспечивая максимальную эффективность и удобство использования.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div><!-- End Feature Icons -->
+      </div>
+    </section><!-- End Features Section -->
+
+<!-- ======= Pricing Section ======= -->
+    <section id="price" class="pricing">
+
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h2>НАШИ ЦЕНЫ</h2>
+          <p>Наше предложение</p>
+        </header>
+
+        <div class="row gy-4" data-aos="fade-left">
+          <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <h3 style="color: #07d5c0;">Базовый</h3>
+              <div class="price">400<span> руб</span></div>
+              <!-- <img src="assets/img/pricing-free.png" class="img-fluid" alt=""> -->
+              <ul>
+                <p>Тариф предусматривает 400 отзывов</p>
+              </ul>
+               <a href="#" class="btn-buy">Купить</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+             <span class="featured" >Рекомен</span> 
+              <h3 style="color: #65c600;">Оптимальный</h3>
+               <div class="price">1300<span> руб</span></div>
+              <!-- <img src="assets/img/pricing-starter.png" class="img-fluid" alt=""> -->
+              <ul>
+                <p>Тариф предусматривает 500 отзывов</p>
+              </ul>
+              <!-- a href="#" class="btn-buy">Купить</a> -->
+              <a href="#" class="btn-buy">Купить</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <span class="featured" >Рекомен</span>
+              <h3 style="color: #65c600;">Оптимальный плюс</h3>
+             <!--  <div class="price"><sup>$</sup>19<span> / mo</span></div> -->
+              <div class="price"><sup></sup>2300<span> руб </span></div>
+              <!-- <img src="assets/img/pricing-starter.png" class="img-fluid" alt=""> -->
+              <ul>
+                <p>Тариф предусматривает 2400 отзывов</p>
+              </ul>
+              <!--               <ul>
+                              <li></li>
+                              <li class="na">2400 ответов</li>
+                            </ul> -->
+              <!-- a href="#" class="btn-buy">Купить</a> -->
+              <a href="#" class="btn-buy">Купить</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <h3 style="color: #ff901c;">Бизнес</h3>
+              <div class="price"><sup></sup>4000 <span> руб</span></div>
+              <!-- <img src="assets/img/pricing-business.png" class="img-fluid" alt=""> -->
+              <ul>
+                <p>Тариф предусматривает 4100 отзывов</p>
+                <!-- <li>4100 ответов</li> -->
+              </ul>
+              <!-- a href="#" class="btn-buy">Купить</a> -->
+              <a href="#" class="btn-buy">Купить</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="box">
+              <h3 style="color: #ff901c;">Бизнес плюс</h3>
+              <div class="price"><sup></sup>6000 <span> руб</span></div>
+              <!-- <img src="assets/img/pricing-business.png" class="img-fluid" alt=""> -->
+              <ul>
+                <p>Тариф предусматривает 6300 отзывов</p>
+                <!-- <li>6300 ответов</li> -->
+              </ul>
+              <!-- a href="#" class="btn-buy">Купить</a> -->
+              <a href="#" class="btn-buy">Купить</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-delay="500">
+            <div class="box">
+              <h3 style="color: #ff0071;">Премиум</h3>
+              <div class="price"><sup></sup>10000<span> руб</span></div>
+              <!-- <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt=""> -->
+              <ul>
+                <p>Тариф предусматривает 12000 отзывов</p>
+                <!-- <li>10000 ответ</li> -->
+              </ul>
+              <!-- <a href="#" class="btn-buy">Купить</a> -->
+              <a href="#" class="btn-buy">Купить</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-delay="600">
+            <div class="box">
+              <h3 style="color: black;">Индивидуальный</h3>
+              <div class="price"><sup></sup><span>по договоренности</span></div>
+              <!-- <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt=""> -->
+              <ul>
+                <li>-</li>
+              </ul>
+              <!-- <a href="#" class="btn-buy">Купить</a> -->
+              <!-- <a href="#" class="btn-buy">Купить</a> -->
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- End Pricing Section -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Как это работает</h2>
+          <p>Ваш путь к инновациям в обслуживании клиентов</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="{% static 'img/values-1.png' %}" class="img-fluid" alt="">
+              <h3>Простая интеграция и интуитивно понятные настройки </h3>
+              <p>Простая интеграция и интуитивно понятные настройки позволяют быстро запустить ИИ-ассистента в работу</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="{% static 'img/values-2.png' %}" class="img-fluid" alt="">
+              <h3>Настройте параметры ИИ согласно специфике вашего бизнеса</h3>
+              <p>Настройте параметры ИИ согласно специфике вашего бизнеса для максимальной эффективности ответов.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="{% static 'img/values-3.png' %}" class="img-fluid" alt="">
+              <h3>Получайте детальные отчеты об эффективности и предложения</h3>
+              <p>Получайте детальные отчеты об эффективности и предложения по оптимизации от нашей системы аналитики</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+
+     <section id="faq" class="faq">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>F.A.Q</h2>
+          <p>Часто задоваемые вопросы</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <!-- F.A.Q List 1-->
+            <div class="accordion accordion-flush" id="faqlist1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    Не получаеться зайти на сайт
+                  </button>
+                </h2>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                   Небольшая инструкция для входа на сайт
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    Можно ли редактировать комментарии
+                  </button>
+                </h2>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Краткая инструкция по работе с пирложением
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    Что значит тариф индивидуальный
+                  </button>
+                </h2>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Рассказать про тарифы
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <!-- F.A.Q List 2-->
+            <div class="accordion accordion-flush" id="faqlist2">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                    Как оплатить данный сервис
+                  </button>
+                </h2>
+                <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Инмтрукция по оплате
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                    Возврат средств
+                  </button>
+                </h2>
+                <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Возврат средств возможен, но займет некоторое
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
+                    Varius vel pharetra vel turpis nunc eget lorem dolor?
+                  </button>
+                </h2>
+                <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- End F.A.Q Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="portfilio" class="testimonials">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Наша работа</h2>
+          <p>Примеры наших работ</p>
+        </header>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+
+                  <img src="{% static 'img/testimonials/testimonials-1.png' %}" class="img-fluid" alt="">
+
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                  <img src="{% static 'img/testimonials/testimonials-1.png' %}" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                  <img src="{% static 'img/testimonials/testimonials-1.png' %}" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                  <img src="{% static 'img/testimonials/testimonials-1.png' %}" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="blog" class="recent-blog-posts">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Blog</h2>
+          <p>Последние новости</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="{% static 'img/blog/blog-1.png' %}" class="img-fluid" alt=""></div>
+              <span class="post-date">Tue, September 15</span>
+              <h3 class="post-title">Последние тенденции в области ии </h3>
+              <!-- <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Подробнее</span><i class="bi bi-arrow-right"></i></a> -->
+              <a href="" class="readmore stretched-link mt-auto"><span>Подробнее</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Recent Blog Posts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Для связи</h2>
+          <p>Наши контакты</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-12">
+
+            <div class="row ">
+
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Telegram</h3>
+                  <p>@tme/dfdfdf/<br>@tme/dfdfdf_2</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@example.com<br>contact@example.com</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> --><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="{% static 'img/logo.png' %}" alt="" >
+              <span>Ответнаотзыв</span>
+            </a>
+            <p>Автоматизированные, интеллектуальные ответы на отзывы, позволяющие вам сосредоточиться на стратегическом развитии бизнеса</p>
+            <div class="social-links mt-3">
+              <a href="#" class="telegram"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="whatsapp"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Управление</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Главная</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Цены</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Примеры</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Блог</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Наши сервисы</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Ответнаотзыв</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Аналитиканаотзыв</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Ответнавопросы</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Генерацияконтента</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
